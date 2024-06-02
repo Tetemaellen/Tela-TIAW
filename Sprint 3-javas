@@ -1,0 +1,12 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const openCartButton = document.getElementById("open-cart");
+    const closeCartButton = document.getElementById("close-cart");
+    const cartOverlay = document.getElementById("cart-overlay");
+
+    openCartButton.addEventListener("click", function() {
+        cartOverlay.style.display = "flex";
+    });
+
+    closeCartButton.addEventListener("click", function() {
+        cartOverlay.style.display = "none";
+    });
