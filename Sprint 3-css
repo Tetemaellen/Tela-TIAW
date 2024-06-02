@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.container {
+  position: relative;
+}
+
+header {
+  background-color:#7701B9;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  
+}
+.logo img{
+  float: left;
+  margin-right: 10px;
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+}
+
+.texto{
+  text-align: center;
+}
+.carrinho {
+  float: right;
+  margin-right: 10px;
+  position: absolute;
+  top: 10px; 
+  right: 70px; 
+  
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cart button {
+  display: block;
+  width: 100%;
+}
+body {
+    background-image: url('Marketplace-amico\ 1.svg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
