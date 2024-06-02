@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('Marketplace-amico\ 1.svg'); 
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+
+        .content {
+            padding: 20px;
+            color: #fff; 
+        }
+    </style>
+    
+    <div class="container">
+        <header>
+            <h1>Minha Loja Online</h1>
+            <button id="open-cart">Carrinho</button>
+        </header>
+        <div class="main-content">
+            <div class="products">
+                <h2>Produtos Disponíveis</h2>
+                <ul id="product-list">
+                </ul>
+            </div>
+        </div>
+        <div id="cart-overlay" class="cart-overlay">
+            <div class="cart">
+                <h2>Carrinho de Compras</h2>
+                <ul id="cart-items">
+                </ul>
+                <p>Total: R$ <span id="total">0.00</span></p>
+                <button id="close-cart">Fechar Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
