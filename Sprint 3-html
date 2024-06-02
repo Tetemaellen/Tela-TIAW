@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Lista de Produtos</title>
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <img src="icon.svg" alt="Logo da Loja">
+            <div class="texto">
+            <h1>Dreams Lab</h1>
+            
+                <li><a href="https://a88e6f7c-e988-49c6-9fb1-ffcb59f1c0ba-00-2w8gyff5r67p4.picard.replit.dev/"></a></li>
+            <a href="carrinho.html"
+            <button class="meuBotao" onclick="handleClick()">
+            <div class="carrinho">
+                <img src="cart-icon.png" alt="Descrição da imagem">
+            </button>
+                </a>
+            <script src="script.js"></script>
+    </header>
+    
+    <h1>Lista de Produtos</h1>
+
+    <ul>
+        <li>
+            <img src="https://amopaocaseiro.com.br/wp-content/uploads/2020/01/pao-caseiro-para-iniciantes_02.jpg" alt="Pão">
+            Pão
+            <button class="meuBotao"><span>R$1.50</span></button>
+        </li>
+        <li>
+            <img src="https://recipesblob.oetker.com.br/assets/a81bc035eb7f407faaa2c93e04edaf78/750x910/bolo-de-aniversrio-de-chocolate.jpg" alt="Leite">
+            Bolo recheado
+            <button class="meuBotao"><span>R$35.00</span></button>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6qwU8ZFQUQNf3O5dxNUmjQEEaPOe4O5Xdp1Cdt86_Q&s" alt="Maçãs">
+            Pão de queijo
+            <button class="meuBotao"><span>R$3.00</span></button>
+        </li>
+        <li>
+            <img src="https://www.adrianalauffer.com.br/wp-content/uploads/2023/05/Bolo-de-cenoura-com-calda-de-cacau--1024x683.png" alt="Ovos">
+            Bolo de cenoura
+            <button class="meuBotao"><span>R$12.50</span></button>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdRUeTXRSHsCdNKWWhBMmimA3HOClEkNTNAvK-aeOIpQ&s" alt="Arroz">
+            Cookies
+            <button class="meuBotao"><span>R$4.00</span></button>
+        </li>
+    </ul>
+</body>
+</html>
